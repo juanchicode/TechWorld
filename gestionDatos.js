@@ -1,4 +1,3 @@
-// 1. Configuración Inicial
 console.log("1. Configuración Inicial");
 
 let productos = [
@@ -12,10 +11,7 @@ let productos = [
 console.log("Array inicial de productos:", productos);
 console.log("\n--------------------------------------------------\n");
 
-
-// 2. Operaciones Básicas y Acceso
 console.log("2. Operaciones Básicas y Acceso");
-
 console.log("Longitud del array:", productos.length);
 
 console.log("Nombre del segundo elemento:", productos[1].nombre);
@@ -23,9 +19,7 @@ console.log("Nombre del cuarto elemento:", productos[3].nombre);
 console.log("\n--------------------------------------------------\n");
 
 
-// 3. Recorrido del Array
 console.log("3. Recorrido del Array");
-
 console.log("Recorrido con for...of:");
 for (const producto of productos) {
     console.log(`Nombre: ${producto.nombre}, Precio: ${producto.precio}`);
@@ -38,9 +32,7 @@ productos.forEach(producto => {
 console.log("\n--------------------------------------------------\n");
 
 
-// 4. Manipulación de Arrays
 console.log("4. Manipulación de Arrays");
-
 console.log("1. Agregando dos elementos con push():");
 productos.push({ id: 6, nombre: "Silla Gamer Dyvan 73210 Ergonomica Reclinable Color Rojo", precio: 156000, stock: 10 });
 productos.push({ id: 7, nombre: "Webcam Logitech Brio 100 Full Hd", precio: 103000, stock: 25 });
